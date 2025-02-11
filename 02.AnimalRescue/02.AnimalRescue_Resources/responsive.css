@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+body {
+    border-top: 20px solid red;
+}
+}
+.our-dogs {
+    padding: 30px;
+    max-width: initial;
+    flex-direction: column;
+}
+.our-dogs-wrapper {
+    padding: 0px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.our-dogs-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+.our-dogs-wrapper ul li img{
+    flex: 1 1 200px;
+}
+header {
+    padding-top: 6rem;
+}
+
+header nav {
+    text-align: center;
+    justify-content: center;
+}
+header nav img {
+    display: none;
+}
+.header-title {
+    padding: 0%;
+}
+.helpNeed {
+    display: block;
+
+}
+.helpNeed ul {
+    display: block;
+}
+
+
+
